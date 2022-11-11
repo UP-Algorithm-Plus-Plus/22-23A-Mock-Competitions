@@ -33,15 +33,3 @@ Output
 The text must be output exactly as it was input except that:
 • the first " in each pair is replaced by two ` characters: `` and
 • the second " in each pair is replaced by two ' characters: ''.
-
-Sample Input
-"To be or not to be," quoth the Bard, "that
-is the question".
-The programming contestant replied: "I must disagree.
-To `C' or not to `C', that is The Question!"
-
-Sample Output
-``To be or not to be,'' quoth the Bard, ``that
-is the question''.
-The programming contestant replied: ``I must disagree.
-To `C' or not to `C', that is The Question!''
