@@ -1,0 +1,18 @@
+https://onlinejudge.org/external/1/136.pdf
+
+136 Ugly Numbers
+
+Ugly numbers are numbers whose only prime factors are 2, 3 or 5. The sequence
+1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, ...
+shows the first 11 ugly numbers. By convention, 1 is included.
+Write a program to find and print the 1500’th ugly number.
+
+Input
+There is no input to this program.
+
+Output
+Output should consist of a single line as shown below, with ‘<number>’ replaced by the number
+computed.
+
+Sample Output
+The 1500'th ugly number is <number>.
