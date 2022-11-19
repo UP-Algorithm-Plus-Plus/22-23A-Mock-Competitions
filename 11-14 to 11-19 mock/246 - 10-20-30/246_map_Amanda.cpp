@@ -117,6 +117,10 @@ int main ()
 
                         break;
                     }
+                    
+                    // clear map (or list) of oldpiles if you remove a pile because you're sure that the state won't return to those previous states
+                    if (pile[i].empty())
+                        oldpile.clear();
                 }
 
             }
