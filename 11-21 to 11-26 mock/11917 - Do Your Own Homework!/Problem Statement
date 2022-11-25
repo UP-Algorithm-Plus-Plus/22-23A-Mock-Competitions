@@ -1,0 +1,31 @@
+https://onlinejudge.org/external/119/11917.pdf
+
+11917 Do Your Own Homework!
+
+These days Soha is so busy that he doesn’t have time to
+do his own homework. But this is not a big problem since
+he has got many friends who are willing to help. One if his
+friend’s name is Sparrow. Whenever Soha is assigned any
+homework, he turns to Sparrow for her help.
+Sparrow has given a list of subjects that she is comfortable with along with the number of days it will take her
+to complete an assignment for each subject. Soha has got
+only D days to complete his next assignment. However, the
+professor of this subject is a little flexible and allows late
+submissions up to 5 days. That means he will not accept
+any submission that is after D + 5 days from now. Will Sparrow be able to do it for Soha this time?
+
+Input
+First line of input is a positive integer T (T le100) that determines the number of test cases. Each case
+starts with a line containing an integer N that represents the number of subjects Sparrow is comfortable
+with. Each of the next N lines contain the name of a subject followed by the number of days it will
+take Sparrow to complete an assignment of that subject. All these subject names will be distinct. The
+next line contains an integer D. The meaning of D is described above. The following line contains the
+name of the subject whose homework is due. All the subjects’ names consist of lowercase letters and
+the length of each is at least 1 and at most 20. All the integer inputs are positive in the range [1,100].
+
+Output
+For each case, first output the case number first starting from 1. If Sparrow doesn’t take more than D
+days to completely the assignment, output ‘Yesss’; if she takes more than D days but not more than
+D + 5, output ‘Late’; if she takes more than D + 5 days or if she isn’t comfortable with the subject,
+output ‘Do your own homework!’. Quotes are for clarify only and don’t need to be part of the output.
+Look at the samples for more details. Be careful about the spelling.
