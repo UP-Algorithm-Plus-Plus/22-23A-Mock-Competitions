@@ -1,0 +1,35 @@
+https://onlinejudge.org/external/131/13190.pdf
+
+13190 Rockabye Tobby
+
+“Rockabye baby, don’t you cry”.
+Tobby is very good at catching the ball, he loves that game so much, that one day he decided to
+go out and play, even though it was raining. He played for a long time and in addition to catching the
+ball many times, he also got a cold, poor Tobby. That is why now his mother will take care of him,
+Big doggie momma, singing that beautiful lullaby (rockabye) and giving him the medications in the
+moments that must be taken.
+In the medical prescription sent by the doctor, he specifies the name of the medications and how
+often they should be taken. The doctor told him that if he takes the medications constantly, he will
+be relieved after taking k medicines. Tobby does not like being sick (in fact no one likes to be), so he
+promises his mother to be constant with the drugs, that is why he now wants to know what are the
+first k drugs that he has to take to feel better. Can you help him?
+
+Input
+Input begins with a line containing an integer T (1 ≤ T ≤ 5), the number of test cases.
+For each test case, the medical prescription is written as follows:
+Each test case begins with a line containing two integers, n (1 ≤ n ≤ 3∗103
+) and k (1 ≤ k ≤ 104
+),
+indicating the number of medications sent by the doctor and the minimum number of medicines Tobby
+must take to feel better.
+The following n lines will be of the form, ‘name frecuency’ (1 ≤ |name| ≤ 15, 1 ≤ frecuency ≤
+3∗103
+), indicating the name of the medication and how often it should be taken.
+The medicines are listed according to their degree of priority, i.e. the first one will be the most
+important drug and the last one, the least important.
+
+Output
+For each test case, the output must have k lines, each of the form, ‘t m’, indicating that in the moment
+t Tobby must take the drug m.
+If there are two or more drugs that must be given at the same time t, they should be printed
+according to their priority.
