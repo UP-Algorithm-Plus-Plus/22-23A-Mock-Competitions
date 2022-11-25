@@ -1,0 +1,27 @@
+https://onlinejudge.org/external/110/11062.pdf
+
+11062 Andy’s Second Dictionary
+
+Andy is now 9-year old and is getting ambitious. He wants to become the world largest dictionary
+editor. You have already helped him to solve a problem with a computer and he now turns back to
+you with a new challenge. He already has a program that copies all the words from a text and outputs
+them in alphabetical order. Unfortunately, this program does not take into account hyphenation and is
+not satisfying him. He wants you to write a new program that can copy words from a text, even when
+those words are hyphenated.
+The input file is a text with no more than 500 words of arbitrary length. Input is terminated by
+EOF.
+You are asked to write a program that lists all the different words in the input text. In this
+problem, a word is defined as a consecutive sequence of alphabets, in upper and/or lower case. Words
+with only one letter are also to be considered. Furthermore, your program must be CaSe InSeNsItIvE.
+For example, words like “Apple”, “apple” or “APPLE” must be considered the same. Also words may
+be hyphenated. When a word is hyphenated, its prefix initiates on a line, followed by hyphen character,
+maybe followed by a newline, followed by the rest of the word. The rest of the word may be itself
+hyphenated. The hyphen character is part of the word if, and only if, not followed by a newline.
+
+Input
+The input file is a text terminated by EOF.
+
+Output
+Your output should give a list of different words that appears in the input text, one in a line. The
+words should all be in lower case, sorted in alphabetical order.
+Note: This problem is an evolution of Andy’s first dictionary, problem number 10815.
