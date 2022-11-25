@@ -1,0 +1,33 @@
+https://onlinejudge.org/external/12/1203.pdf
+
+1203 Argus
+
+A data stream is a real-time, continuous, ordered sequence of items. Some examples include sensor
+data, Internet traffic, financial tickers, on-line auctions, and transaction logs such as Web usage logs
+and telephone call records. Likewise, queries over streams run continuously over a period of time and
+incrementally return new results as new data arrives. For example, a temperature detection system of
+a factory warehouse may run queries like the following.
+Query-1: “Every five minutes, retrieve the maximum temperature over the past five minutes.”
+Query-2: “Return the average temperature measured on each floor over the past 10 minutes.”
+We have developed a Data Stream Management System called Argus, which processes the queries
+over the data streams. Users can register queries to the Argus. Argus will keep the queries running
+over the changing data and return the results to the corresponding user with the desired frequency.
+For the Argus, we use the following instruction to register a query:
+Register Q num P eriod
+Q num (0 < Qnum ≤ 3000) is query ID-number, and P eriod (0 < P eriod ≤ 3000) is the interval
+between two consecutive returns of the result. After P eriod seconds of register, the result will be
+returned for the first time, and after that, the result will be returned every P eriod seconds.
+Here we have several different queries registered in Argus at once. It is confirmed that all the
+queries have different Q num. Your task is to tell the first K queries to return the results. If two or
+more queries are to return the results at the same time, they will return the results one by one in the
+ascending order of Q num.
+
+Input
+The first part of the input are the register instructions to Argus, one instruction per line. You can
+assume the number of the instructions will not exceed 1000, and all these instructions are executed at
+the same time. This part is ended with a line of ‘#’.
+The second part is your task. This part contains only one line, which is one positive integer K
+(≤ 10000).
+
+Output
+You should output the Q num of the first K queries to return the results, one number per line.
