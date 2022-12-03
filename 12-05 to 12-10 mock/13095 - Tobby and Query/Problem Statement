@@ -1,0 +1,19 @@
+https://onlinejudge.org/external/130/13095.pdf
+
+13095 Tobby and Query
+
+In his free time Tobby is always searching for interesting things. This time Tobby created the following
+problem: given a sequence of n integer numbers, Tobby would like to know how many different numbers
+are in the range [l, r] (r ≥ l).
+
+Input
+The input has several test cases. The first line of each test case contains an integer n (1 ≤ n ≤ 105
+),
+the size of the sequence of numbers. The next line contains n values ai (0 ≤ ai ≤ 9), the numbers in
+the sequence. The next line contains an integer q (1 ≤ q ≤ 104
+), the amount of queries. Then there are
+q lines, each line contains a query: two integers l and r (1 ≤ l, r ≤ n).
+
+Output
+For each test case print q integers, representing the amount of different numbers in the range [l, r] for
+each query in the input.
