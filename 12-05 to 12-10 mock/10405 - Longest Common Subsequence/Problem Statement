@@ -1,0 +1,17 @@
+https://onlinejudge.org/external/104/10405.pdf
+
+10405 Longest Common Subsequence
+
+Given two sequences of characters, print the length of the longest common subsequence of both sequences.
+Sequence 1:
+Sequence 2:
+For example, the longest common subsequence of the following two sequences ‘abcdgh’ ans ‘aedfhr’
+is ‘adh’ of length 3.
+
+Input
+Input consists of pairs of lines. The first line of a pair contains the first string and the second line
+contains the second string. Each string is on a separate line and consists of at most 1,000 characters
+
+Output
+For each subsequent pair of input lines, output a line containing one integer number which satisfies the
+criteria stated above.
