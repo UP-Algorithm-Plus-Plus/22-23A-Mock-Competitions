@@ -1,0 +1,27 @@
+https://onlinejudge.org/external/126/12640.pdf
+
+12640 Largest Sum Game
+
+After a long beer party and when ready for the check, John and his friends play the largest sum game
+and whoever wins the game will not have to pay a dime of the check. The largest sum game consists in
+finding the largest sum of consecutive values in a sequence of numbers; the winner is the one quickest
+to answer.
+For example, in the sequence 23, -1, -24, 2, 23 the largest sum of consecutive values is 25 and
+whoever finds this value first, is the winner of the game.
+Although simple (and geeky), the game is challenging because beer and arithmetic do not mix well
+together. However, since the group of friends are amateur programmers, each have implemented an
+algorithmic solution for finding the largest sum and have agreed to select the winner of the game in
+the form of a programming challenge: they connect their laptops to a central server that produces a
+random sequence of numeric values, run the solutions on this data, and the program quickest to answer
+wins the game.
+John is tired of paying night after night without ever winning the game and he is determined to
+stop this situation tonight. John has hired you to write a highly efficient computer program that could
+beat the others in the largest sum game.
+
+Input
+The input consists of several test cases, each one defined by a line containing a sequence of N blankseparated integers X1, X2, . . . , XN (1 ≤ N ≤ 105
+, −103 ≤ Xi ≤ 103
+for each 1 ≤ i ≤ N).
+
+Output
+For each test case, output a line with the largest sum of consecutive values in X1, X2, . . . , XN .
