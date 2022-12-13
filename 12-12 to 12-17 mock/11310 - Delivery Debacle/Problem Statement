@@ -1,0 +1,21 @@
+https://onlinejudge.org/external/113/11310.pdf
+
+11310 Delivery Debacle
+
+Wolfgang Puck has two very peculiar habits:
+• I. He only makes two shapes of cakes. One is square and has an area of one unit. The other is
+L-shaped and has an area of three units.
+• II. He will only deliver cakes packed in very specific box sizes. The boxes are always 2 units wide
+and are of varying length.
+One day Wolfgang wondered in how many different ways he can pack his cakes into certain sized
+boxes. Can you help him?
+The precise sizes of the cakes Wolfgang makes and one way to pack them in a box of length 6.
+The five ways to pack a box of length 2.
+
+Input
+The input begins with t, the number of different box lengths. The following t lines contain an integer
+n (1 ≤ n ≤ 40).
+
+Output
+For each n output on a separate line the number of different ways to pack a 2-by-n box with cakes
+described above. Output is guaranteed to be less than 1018.
