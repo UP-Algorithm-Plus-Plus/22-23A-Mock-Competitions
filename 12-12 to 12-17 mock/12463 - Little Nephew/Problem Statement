@@ -1,0 +1,42 @@
+https://onlinejudge.org/external/124/12463.pdf
+
+12463 Little Nephew
+
+Your little nephew is 5 years old. He tells you he has a hats of different colors, b T-shirts of different
+colors, c pants of different colors, d pairs of socks of different colors and e pairs of shoes of different
+colors (you know how kids are). He is on that age where kids ask and ask questions all day long. He
+asked you in how many different ways he could possibly get dressed.
+Since he is just 5, sometimes he wears socks or shoes of different colors. For example, he might
+wear a red sock on his right foot and a blue sock on his left foot. We will consider two ways of dressing
+different if they differ in the color of the hat, the color of the T-shirt, the color of the pants, the color
+of the sock on the left foot, the color of the sock on the right foot, the color of the shoe on the left foot
+or the color of the shoe on the right foot.
+He’s clever enough to figure out which is the left shoe and which is the right shoe, so he’ll never
+put the wrong shoe on the wrong foot like you used to do. Also, he always wears a hat, a T-shirt, a
+pair of pants, a pair of socks and a pair of shoes (I guess someone told him it’s not good to go walking
+around there half-naked).
+Here’s an example. If he has one red hat, two T-shirts (one blue and one green), one pair of pants
+(black), two pairs of socks (one white pair and one orange pair) and two pairs of shoes (one brown pair
+and the other one yellow) then he can dress in 32 different ways. Here are some of the valid different
+ways how he can dress (the changes between consecutive ways in this list are shown in bold):
+• The red hat, the blue T-shirt, the black pants, a white sock on the left foot, a white sock on the
+right foot, a brown shoe on the left foot, a brown shoe on the right foot.
+• The red hat, the green T-shirt, the black pants, a white sock on the left foot, an orange sock
+on the right foot, a brown shoe on the left foot, a brown shoe on the right foot.
+• The red hat, the green T-shirt, the black pants, an orange sock on the left foot, a white sock
+on the right foot, a brown shoe on the left foot, a brown shoe on the right foot.
+• The red hat, the green T-shirt, the black pants, an orange sock on the left foot, a white sock on
+the right foot, a brown shoe on the left foot, a white shoe on the right foot.
+Notice that the only difference between the second and the third way is that he swapped the color
+of his left and right socks. These are two different ways of getting dressed according to the rules above.
+He said that if you wrote a program that could calculate this number he would stop asking questions!
+
+Input
+The input contains several test cases.
+Each test case is described by five integers a, b, c, d and e (1 ≤ a, b, c, d, e ≤ 20). These integers
+represent the values explained above and will be separated by one or more spaces.
+The last line of the input contains five ‘0’s and should not be processed.
+
+Output
+For each test case, output the number of different ways in which the kid can get dressed. Output this
+number on a single line.
