@@ -1,0 +1,17 @@
+https://onlinejudge.org/external/9/991.pdf
+
+991 Safe Salutations
+
+As any minimally superstitious person knows all too well, terrible things will happen when four persons
+do a crossed handshake.
+You, an intrepid computer scientist, are given the task of easing the burden of these people by
+providing them with the feasible set of handshakes that include everyone in the group while avoiding
+any such crossings. The following figure illustrates the case for 3 pairs of persons:
+
+Input
+The input to this problem contains several datasets separated by a blank line. Each dataset is simply
+an integer n, the number of pairs of people in the group, with 1 ≤ n ≤ 10.
+
+Output
+The output is equally simple. For each dataset, print a single integer indicating the number of possible
+crossless ha
