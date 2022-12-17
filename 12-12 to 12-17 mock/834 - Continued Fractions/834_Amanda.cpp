@@ -13,10 +13,7 @@ int main ()
     while (cin >> numerator >> denominator) {
         cout << '[';
         
-        if (numerator > denominator) 
-            cout << numerator/denominator << ';';
-        else
-            cout << "0;";
+        cout << numerator/denominator << ';';
 
         numerator = numerator%denominator;
         swap(numerator,denominator);
